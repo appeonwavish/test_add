@@ -36,6 +36,8 @@ type rb_left from w_genapp_toolbars`rb_left within w_genapp_toobars1
 end type
 
 type cb_done from w_genapp_toolbars`cb_done within w_genapp_toobars1
+integer x = 731
+integer y = 192
 end type
 
 type cb_visible from w_genapp_toolbars`cb_visible within w_genapp_toobars1
