@@ -1,0 +1,23 @@
+﻿$PBExportHeader$gf_test.srf
+global type gf_test from function_object
+end type
+
+forward prototypes
+global function integer gf_test (window awin, windowobject awo)
+end prototypes
+
+global function integer gf_test (window awin, windowobject awo);powerobject apo
+
+apo = awo.getparent()
+
+do while true
+	if apo.typeof() = window! then
+		awin = apo
+		exit
+	end if
+	apo = apo.getparent()
+loop
+
+return 1
+end function
+
