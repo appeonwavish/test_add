@@ -38,8 +38,8 @@ destroy(this.cb_1)
 end on
 
 type cb_1 from commandbutton within w_genapp_sheet1
-integer x = 357
-integer y = 312
+integer x = 439
+integer y = 320
 integer width = 402
 integer height = 112
 integer taborder = 10
